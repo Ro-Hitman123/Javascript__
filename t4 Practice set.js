@@ -18,3 +18,13 @@ const c = {
 
 c["friend"] = "Saroj"
 console.log(c)
+
+const dict = {
+    appreciate: "Recognize the full worth of.",
+    love: "An intense feeling of deep affection.",
+    hate: "Intense or passionate dislike.",
+    happy: "Feeling or showing pleasure or contentment.",
+    sad: "Feeling or showing sorrow; unhappy."
+}
+
+console.log(dict)
