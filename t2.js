@@ -12,7 +12,7 @@ a = "Kritagya1"
 console.log(a)
 let b = "Kritagya2"
 const author = "Kritagya3"
-console.log(a)
+console.log(author)
 {
     let b = "Hello"
     console.log(b)  
