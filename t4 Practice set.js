@@ -6,3 +6,4 @@ console.log(a + b)
 
 // Create typeof operator to find the datatype of the string in last question.
 
+console.log(typeof (a + b))
