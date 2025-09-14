@@ -20,3 +20,16 @@ let g = undefined
 
 console.log(a,b,c,d,e,f,g)
 console.log(typeof d)
+
+// Objects in JavaScript
+
+const item = {
+    "Kritagya": true,
+    "marks": 90,
+    "age": 20
+}
+console.log(item["marks"])
+console.log(item.Kritagya)
+console.log(typeof item)
+console.log(item.age)
+console.log(item.dfh)
