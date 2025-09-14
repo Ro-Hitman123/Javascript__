@@ -13,3 +13,8 @@ const c = {
     age: 20 
 }
 
+// c = 45 This will give an error as we cannot reassign a constant variable.
+// c = {} This will also give an error as we cannot reassign a constant variable.
+
+c["friend"] = "Saroj"
+console.log(c)
