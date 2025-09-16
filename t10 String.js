@@ -1,9 +1,18 @@
-let name = "Awesome"
+let name = "Manish"
+// String Methods
 console.log(name.length)
 console.log(name.toUpperCase())
 console.log(name.toLowerCase())
 console.log(name[3])
+console.log(name.slice(1,5))
+console.log(name.slice(1))
+console.log(name.replace("some","kens"))
 console.log(name.indexOf("some"))
+
+let friend = "Kritagya"
+console.log(name.concat(" is a friend of ", friend))
+console.log(friend.trim())
+
 
 // Template Literals
 let boy1 = "Saroj"
