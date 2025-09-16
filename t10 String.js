@@ -14,3 +14,15 @@ console.log(friendship)
 //Escape sequence characters
 let fruit = 'Bana\'na'
 console.log(fruit)
+
+let fruit2 = "Bana\"na"
+console.log(fruit2)
+
+let fruit3 = "Bana\rna"
+console.log(fruit3)
+
+let fruit4 = "Bana\rna"
+console.log(fruit4)
+
+let fruit5 = "Bana\tna"
+console.log(fruit5)
