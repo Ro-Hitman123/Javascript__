@@ -12,7 +12,7 @@ for (let i = 0; i<Object.keys(marks).length; i++){
 // By using for in loop
 
 for(let keys in marks){
-    console.log("The marks of " + keys + " is " + marks[keys])
+    console.log("The marks of ", keys + " is " + marks[keys])
 }
 
 // Write a function to find mean of the 5 numbers
