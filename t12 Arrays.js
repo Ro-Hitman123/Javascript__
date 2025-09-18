@@ -7,9 +7,9 @@ console.log(typeof marks_class_12)
 // Array Methods
 
 let num = [1,2,3,4,5]
-let b = num.toString()
+let b = num.toString() // converts array to string
 console.log(b)
-let c = num.join("-")
+let c = num.join("-") // converts array to string with specified separator
 console.log(c)
 r = num.pop() // removes last element from array and returns it
 console.log(num, r)
@@ -21,7 +21,7 @@ let e = num.shift() // removes first element from array and returns it
 console.log(num, e)
 let f = num.unshift(0) // adds an element at the start of array and returns the new length of array
 console.log(num, f)
-delete num[0]
+delete num[0] // deletes the element at index 0 but does not change the length of array
 console.log(num)
 let marks_class_11 = [45, 56, 67, 78]
 let marks = marks_class_11.concat(marks_class_12) // concatenates two arrays
