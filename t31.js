@@ -20,4 +20,4 @@ btn.addEventListener('click', x)
 
 // if (a == 2) {
 //     btn.removeEventListener('click', y)
-// }
+//}
